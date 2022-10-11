@@ -1,0 +1,12 @@
+>>> from documentar import User
+
+>>> username = 'Enlighted'
+>>> password = 'password123'
+
+>>> user = User(username, password)
+
+>>> user.username == username
+True
+
+>>> user.password == password
+True
